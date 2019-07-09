@@ -55,6 +55,20 @@ const eventsFromDashboard = [
   }
 ];
 
+// let var1 = { name: "Jim" };
+// let var2 = var1;
+// let var3 = var2;
+// var2.name = "John";
+// console.log(var1);
+// // { name: 'John' }
+// console.log(var2);
+// // { name: 'John' }
+// console.log(var3);
+
+// const arr = [4, 6, -1, 3, 10, 4];
+// const max = Math.max(...arr);
+// console.log(max);
+
 class EventDashboard extends Component {
   state = {
     events: eventsFromDashboard,
